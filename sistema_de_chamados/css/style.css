@@ -1,0 +1,150 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d1f44;
+}
+
+/* Background geral */
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container principal */
+.container {
+  background: #f0f6ff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(13,31,68,0.15);
+  width: 100%;
+  max-width: 900px;
+  padding: 30px 40px;
+}
+
+/* Logo no topo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.logo h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1e3c72;
+}
+
+/* Botões */
+button, input[type="submit"] {
+  background-color: #1e3c72;
+  color: #f0f6ff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #2a5298;
+}
+
+/* Inputs e formulários */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1.8px solid #a3b8d1;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+  border-color: #1e3c72;
+  outline: none;
+}
+
+/* Títulos */
+h2 {
+  color: #1e3c72;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* Tabela de chamados */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+thead {
+  background-color: #2a5298;
+  color: #f0f6ff;
+}
+
+thead th {
+  padding: 14px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #d1dbf0;
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+tbody tr:hover {
+  background-color: #dce7ff;
+}
+
+tbody td {
+  padding: 12px;
+  color: #0d1f44;
+}
+
+/* Mensagens de erro e sucesso */
+.alert {
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.alert.success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+/* Rodapé simples */
+footer {
+  text-align: center;
+  color: #a3b8d1;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.login {
+    color: #a3b8d1;
+}
