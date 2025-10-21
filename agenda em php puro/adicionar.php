@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <h1>➕ Novo Contato</h1>
+    <h1>➕ Novo Novo Contato</h1>
 
     <form action="salvar.php" method="post">
         <label for="nome">Nome:</label>
